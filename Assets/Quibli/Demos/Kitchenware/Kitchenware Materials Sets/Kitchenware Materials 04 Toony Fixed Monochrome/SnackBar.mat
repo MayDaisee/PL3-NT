@@ -6,7 +6,7 @@ Texture2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: z__GradientRampTex{"mode":1,"colorKeys":[{"color":{"r":0.6226415038108826,"g":0.212469682097435,"b":0.19090424478054048,"a":1.0},"time":0.4294193983078003},{"color":{"r":0.6431372761726379,"g":0.3736147880554199,"b":0.364705890417099,"a":1.0},"time":0.8352941274642944},{"color":{"r":0.9811320900917053,"g":0.9811320900917053,"b":0.9811320900917053,"a":1.0},"time":0.9147020578384399}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}]}
+  m_Name: z__GradientRampTex{"mode":1,"colorKeys":[{"color":{"r":0.16981130838394166,"g":0.09765665233135224,"b":0.08891063928604126,"a":1.0},"time":0.41765469312667849},{"color":{"r":0.3396226167678833,"g":0.21437379717826844,"b":0.19384120404720307,"a":1.0},"time":0.6352941393852234},{"color":{"r":0.9811320900917053,"g":0.9811320900917053,"b":0.9811320900917053,"a":1.0},"time":0.7117723226547241}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}]}
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -42,7 +42,7 @@ Texture2D:
   m_ColorSpace: 1
   m_PlatformBlob: 
   image data: 1024
-  _typelessdata: ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ff9f3631ffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dffa45f5dfffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafa
+  _typelessdata: ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff2b1917ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731ff573731fffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafa
   m_StreamData:
     serializedVersion: 2
     offset: 0
@@ -55,16 +55,21 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Kitchenware_04_Spoon01
+  m_Name: SnackBar
   m_Shader: {fileID: 4800000, guid: 2a230514c860643f69b6a4d1871d3825, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - DR_RIM_ON
   - _DETAILMAPBLENDINGMODE_ADD
   - _RECEIVE_SHADOWS_OFF
   - _TEXTUREBLENDINGMODE_MULTIPLY
   m_InvalidKeywords:
+  - DR_CEL_EXTRA_ON
+  - _CELPRIMARYMODE_SINGLE
+  - _QUIBLI_GRADIENT
   - _RECEIVESHADOWS_OFF
+  - _UNITYSHADOWMODE_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -177,8 +182,8 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FlatRimEdgeSmoothness: 0
-    - _FlatRimLightAlign: 1
-    - _FlatRimSize: 0.442
+    - _FlatRimLightAlign: 0.596
+    - _FlatRimSize: 0.061
     - _FlatSpecularEdgeSmoothness: 0
     - _FlatSpecularSize: 0.1
     - _Flatness: 1
@@ -207,8 +212,8 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 0
-    - _RimEnabled: 0
-    - _SelfShadingSize: 0.028
+    - _RimEnabled: 1
+    - _SelfShadingSize: 0.289
     - _SelfShadingSizeExtra: 0.116
     - _ShadowEdgeSize: 0.5
     - _ShadowEdgeSizeExtra: 0.038
