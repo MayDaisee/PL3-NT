@@ -2,24 +2,54 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class ItemCollision : MonoBehaviour
 {
-    public GameObject poletti;
     public GameObject spawnThis;
+    bool pulloLevyllä;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (collision.gameObject.name == "PolettiIcon")
+        if (gameObject.name == "PoleCollider" && collision.gameObject.name == "PolettiIcon")
         {
-            spawnThis.SetActive(true);
-            poletti.SetActive(false);
+            InteractionSuccess();
+
             print("Ole hyvä :)");
+            Destroy(gameObject);
 
         }
 
+        if (gameObject.name == "ChemCollider" && collision.gameObject.name == "LasipulloIcon")
+        {
+            InteractionSuccess();
 
+            print("Jee pullo");
+            pulloLevyllä = true;
+
+        }
+
+        void InteractionSuccess()
+        {
+            spawnThis.SetActive(true);
+            collision.gameObject.SetActive(false);
+        }
+
+        if (pulloLevyllä == true)
+        {
+            Mixology();
+        }
+
+        void Mixology()
+        {
+            if (gameObject.name == "ChemCollider" && collision.gameObject.name == "LimuIcon")
+            {
+                collision.gameObject.SetActive(false);
+                print("Limu miksattu");
+            }
+        }
     }
+
 
 }
