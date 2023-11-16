@@ -8,6 +8,12 @@ public class ItemCollision : MonoBehaviour
 {
     public GameObject spawnThis;
     bool pulloLevyllä;
+    ParticleSystem luigit;
+
+    private void Start()
+    {
+        luigit = spawnThis.GetComponent<ParticleSystem>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -46,6 +52,7 @@ public class ItemCollision : MonoBehaviour
             if (gameObject.name == "ChemCollider" && collision.gameObject.name == "LimuIcon")
             {
                 collision.gameObject.SetActive(false);
+                luigit.Play(true);
                 print("Limu miksattu");
             }
         }
