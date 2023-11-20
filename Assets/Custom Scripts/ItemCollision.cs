@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class ItemCollision : MonoBehaviour
 {
     public GameObject spawnThis;
     bool pulloLevyllä;
+    bool koksuIn;
+    bool limuIn;
     ParticleSystem luigit;
 
     private void Start()
@@ -53,8 +56,23 @@ public class ItemCollision : MonoBehaviour
             {
                 collision.gameObject.SetActive(false);
                 luigit.Play(true);
+                limuIn = true;
                 print("Limu miksattu");
             }
+
+            if (gameObject.name == "ChemCollider" && collision.gameObject.name == "KoksuIcon")
+            {
+                collision.gameObject.SetActive(false);
+                spawnThis.GetComponent<Light>().enabled = true;
+                koksuIn = true;
+            }
+
+            if (koksuIn == true && limuIn == true)
+            {
+                gameObject.GetComponent<Button>().enabled = true;
+            }
+
         }
+
     }
 }
