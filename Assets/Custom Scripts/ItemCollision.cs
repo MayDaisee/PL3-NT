@@ -39,6 +39,16 @@ public class ItemCollision : MonoBehaviour
 
         }
 
+        if (gameObject.name == "SuihkepulloIcon" && collision.gameObject.name == "FullLasipulloIcon")
+        {
+            InteractionSuccess();
+
+            print("KASVIMYRKKY GET");
+            Destroy(gameObject);
+
+        }
+
+
         void InteractionSuccess()
         {
             spawnThis.SetActive(true);
