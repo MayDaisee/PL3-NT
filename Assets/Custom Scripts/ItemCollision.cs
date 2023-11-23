@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class ItemCollision : MonoBehaviour
 {
     public GameObject spawnThis;
+    public GameObject pahaKasvi;
     bool pulloLevyllä;
     bool koksuIn;
     bool limuIn;
@@ -45,6 +46,16 @@ public class ItemCollision : MonoBehaviour
 
             print("KASVIMYRKKY GET");
             Destroy(gameObject);
+
+        }
+
+        if (gameObject.name == "KasviHitbox" && collision.gameObject.name == "MyrkkypulloIcon")
+        {
+
+            InteractionSuccess();
+            pahaKasvi.SetActive(false);
+
+            print("Voitto!");
 
         }
 
