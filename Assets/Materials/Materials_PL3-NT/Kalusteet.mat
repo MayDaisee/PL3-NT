@@ -55,7 +55,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tuoli_MatteBRDR
+  m_Name: Kalusteet
   m_Shader: {fileID: 4800000, guid: 2a230514c860643f69b6a4d1871d3825, type: 3}
   m_Parent: {fileID: 2100000, guid: bd6ad45e7b6b9dd4494d148e190b93a8, type: 2}
   m_ModifiedSerializedProperties: 2
