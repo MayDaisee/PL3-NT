@@ -71,7 +71,7 @@ Material:
   - _QUIBLI_GRADIENT
   - _RECEIVESHADOWS_OFF
   - _UNITYSHADOWMODE_NONE
-  m_LightmapFlags: 4
+  m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2000
