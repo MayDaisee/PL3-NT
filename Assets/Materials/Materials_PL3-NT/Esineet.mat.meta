@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Materials/Materials_PL3-NT/Esineet.mat.meta
 guid: 2284eef3940019d43b6bf57541d2bd95
 NativeFormatImporter:
+========
+guid: bb39204d8a2619c4e83cf8031eba0186
+PrefabImporter:
+>>>>>>>> 0aaf69471803ddb4b7899674c95a26069311c64e:Assets/Original Prefab Assets/UIIconPrefabs/Valikko(WIP).prefab.meta
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 

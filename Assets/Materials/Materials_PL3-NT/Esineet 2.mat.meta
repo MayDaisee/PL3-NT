@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Materials/Materials_PL3-NT/Esineet 2.mat.meta
 guid: 4f56cb9d87837fd43a6ba2ad64d25e57
 NativeFormatImporter:
+========
+guid: 50a1e34079c665e48b55a689baa06179
+PrefabImporter:
+>>>>>>>> 0aaf69471803ddb4b7899674c95a26069311c64e:Assets/Original Prefab Assets/UIIconPrefabs/Frame.prefab.meta
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 

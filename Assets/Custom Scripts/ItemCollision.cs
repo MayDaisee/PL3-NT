@@ -6,7 +6,7 @@ using UnityEngine.Events;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
 
-public enum Item
+public enum Items
 {
     none, credit, bottle
 }
@@ -20,7 +20,7 @@ public class ItemCollision : MonoBehaviour
     bool limuIn;
     ParticleSystem luigit;
 
-    public Item collectableItem; //voi olla tarvittaessa lista
+    public Items collectableItem; //voi olla tarvittaessa lista
 
     public List<ItemCollision> requiredStepsDone;
 
@@ -48,19 +48,11 @@ public class ItemCollision : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         // get component for Intractable, if found, and type maches, requirements ok --> go on
 
 
-        if (gameObject.name == "PoleCollider" && collision.gameObject.name == "PolettiIcon")
-        {
-            InteractionSuccess();
-
-            print("Ole hyvä :)");
-            Destroy(gameObject);
-
-        }
 
         if (gameObject.name == "ChemCollider" && collision.gameObject.name == "LasipulloIcon")
         {
@@ -77,16 +69,6 @@ public class ItemCollision : MonoBehaviour
 
             print("KASVIMYRKKY GET");
             Destroy(gameObject);
-
-        }
-
-        if (gameObject.name == "KasviHitbox" && collision.gameObject.name == "MyrkkypulloIcon")
-        {
-
-            InteractionSuccess();
-            pahaKasvi.SetActive(false);
-
-            print("Voitto!");
 
         }
 

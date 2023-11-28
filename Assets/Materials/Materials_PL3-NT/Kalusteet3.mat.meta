@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Materials/Materials_PL3-NT/Kalusteet3.mat.meta
 guid: 6cf096ccbf361de45b42ddf46f595751
+========
+guid: 7216bdb47a78ed0489e215bdaa4aea56
+>>>>>>>> 0aaf69471803ddb4b7899674c95a26069311c64e:Assets/Materials/GuideBoardMaterial.mat.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
