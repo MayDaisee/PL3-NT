@@ -6,7 +6,7 @@ Texture2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: z__GradientRampTex{"mode":1,"colorKeys":[{"color":{"r":0.6788613200187683,"g":0.5158419609069824,"b":0.6792452931404114,"a":1.0},"time":0.0},{"color":{"r":0.6788613200187683,"g":0.5158419609069824,"b":0.6792452931404114,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}]}
+  m_Name: z__GradientRampTex{"mode":1,"colorKeys":[{"color":{"r":0.5215686559677124,"g":0.6549019813537598,"b":0.4117647409439087,"a":1.0},"time":0.9088273644447327},{"color":{"r":0.5411764979362488,"g":0.8588235974311829,"b":0.8274510502815247,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}]}
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -42,7 +42,7 @@ Texture2D:
   m_ColorSpace: 1
   m_PlatformBlob: 
   image data: 1024
-  _typelessdata: ffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84adffad84ad
+  _typelessdata: ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff85a769ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3ff8adbd3
   m_StreamData:
     serializedVersion: 2
     offset: 0
@@ -55,13 +55,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: smallEdgeLavMug
+  m_Name: Pipetit
   m_Shader: {fileID: 4800000, guid: 2a230514c860643f69b6a4d1871d3825, type: 3}
   m_Parent: {fileID: 2100000, guid: 38b800a01a8134676906bf9358b589d0, type: 2}
   m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
   - DR_OUTLINE_ON
-  - DR_RIM_ON
   - DR_SPECULAR_ON
   - _DETAILMAPBLENDINGMODE_ADD
   - _RECEIVE_SHADOWS_OFF
@@ -89,7 +88,7 @@ Material:
     - _FlatRimLightAlign: 0.497
     - _FlatRimSize: 0.228
     - _FlatSpecularEdgeSmoothness: 0
-    - _FlatSpecularSize: 0.718
+    - _FlatSpecularSize: 0.689
     - _GradientAngle: 0
     - _GradientCenterX: 0
     - _GradientCenterY: 0
@@ -98,7 +97,7 @@ Material:
     - _OutlineEnabled: 1
     - _OutlineScale: 1
     - _OutlineWidth: 1
-    - _RimEnabled: 1
+    - _RimEnabled: 0
     - _SpecularEnabled: 1
     m_Colors:
     - _ColorGradient: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
