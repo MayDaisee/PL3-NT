@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!28 &-6292098292919773908
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: z__GradientRampTex{"mode":2,"colorKeys":[{"color":{"r":0.9450981020927429,"g":0.9529412388801575,"b":0.2549019753932953,"a":1.0},"time":0.0},{"color":{"r":1.003218650817871,"g":0.14509804546833039,"b":0.4941176772117615,"a":1.0},"time":0.20000000298023225},{"color":{"r":0.019607843831181527,"g":0.019607843831181527,"b":0.019607843831181527,"a":1.0},"time":0.45294880867004397}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}]}
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 256
+  m_Height: 1
+  m_CompleteImageSize: 1024
+  m_MipsStripped: 0
+  m_TextureFormat: 5
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 1024
+  _typelessdata: fff1f341fff2f044fff3ed47fff4ea4afff5e64dfff6e34ffff7e052fff8dd54fff9da56fffad758fffad35afffbd05cfffccd5dfffcca5ffffdc661fffec362fffec064ffffbd65ffffb966ffffb668ffffb369ffffaf6affffac6bffffa86cffffa56dffffa16effff9e6fffff9a70ffff9771ffff9372ffff9073ffff8c74ffff8874ffff8475ffff8176ffff7d77ffff7977ffff7578ffff7078ffff6c79ffff687affff637affff5f7bffff5a7bffff557bffff507cffff4a7cffff447dffff3e7dffff377dffff2f7effff257efffb257cfff7257afff22577ffee2575ffe92573ffe52571ffe0256fffdc256dffd7256bffd32569ffcf2566ffca2464ffc62462ffc12460ffbd245effb9245cffb5235affb02358ffac2356ffa82254ffa42252ff9f2250ff9b214eff97214cff93214aff8f2048ff8b2046ff871f44ff831f42ff7f1e40ff7b1e3eff771d3cff731d3aff6f1c38ff6b1c36ff671b34ff631b32ff5f1a31ff5b192fff58192dff54182bff501729ff4c1727ff491626ff451524ff421522ff3e1420ff3a131fff37121dff33111bff301119ff2c1018ff290f16ff260e14ff220d13ff1f0c11ff1c0b0fff180b0eff150a0cff12090bff0f0809ff0c0708ff090607ff060506ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505ff050505
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EscapePod_v2
+  m_Shader: {fileID: 4800000, guid: 2a230514c860643f69b6a4d1871d3825, type: 3}
+  m_Parent: {fileID: 2100000, guid: 38b800a01a8134676906bf9358b589d0, type: 2}
+  m_ModifiedSerializedProperties: 2
+  m_ValidKeywords:
+  - DR_OUTLINE_ON
+  - DR_RIM_ON
+  - _DETAILMAPBLENDINGMODE_ADD
+  - _RECEIVE_SHADOWS_OFF
+  - _TEXTUREBLENDINGMODE_MULTIPLY
+  m_InvalidKeywords:
+  - _RECEIVESHADOWS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_LockedProperties: _TextureBlendingMode
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GradientRamp:
+        m_Texture: {fileID: -6292098292919773908}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _FlatRimEdgeSmoothness: 0.881
+    - _FlatRimLightAlign: 0
+    - _FlatRimSize: 0
+    - _FlatSpecularEdgeSmoothness: 0
+    - _FlatSpecularSize: 0.475
+    - _GradientAngle: 0
+    - _GradientCenterX: 0
+    - _GradientCenterY: 0
+    - _GradientSize: 10
+    - _OutlineDepthOffset: 0
+    - _OutlineEnabled: 1
+    - _OutlineWidth: 1
+    - _RimEnabled: 1
+    - _SelfShadingSize: 0.131
+    - _SpecularEnabled: 0
+    m_Colors:
+    - _ColorGradient: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+    - _FlatRimColor: {r: 9.082412, g: 1.2424057, b: 2.925339, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &2873338400957594487
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4

@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!28 &-6292098292919773908
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: z__GradientRampTex{"mode":2,"colorKeys":[{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":0.7137255072593689,"g":0.11372549831867218,"b":0.41960787773132326,"a":1.0},"time":0.2558785378932953},{"color":{"r":1.0,"g":0.1764705926179886,"b":0.5960784554481506,"a":1.0},"time":0.3294117748737335},{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":0.5176470875740051},{"color":{"r":1.0,"g":0.1764705926179886,"b":0.5960784554481506,"a":1.0},"time":0.8029450178146362},{"color":{"r":1.0,"g":0.1764705926179886,"b":0.5960784554481506,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}]}
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 256
+  m_Height: 1
+  m_CompleteImageSize: 1024
+  m_MipsStripped: 0
+  m_TextureFormat: 5
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 1024
+  _typelessdata: ff000000ff000000ff000000ff000000ff000000ff010000ff010000ff020001ff030001ff040001ff060002ff070002ff0a0003ff0c0004ff0f0005ff110006ff140107ff160109ff19010aff1c010cff1f010eff21010fff240211ff270213ff2a0215ff2d0216ff300318ff33031aff36031cff39041eff3c0420ff3f0422ff420524ff460526ff490628ff4c062aff4f072cff52072eff560830ff590932ff5c0934ff600a36ff630b38ff660c3aff6a0c3cff6d0d3eff710e40ff740f42ff780f44ff7b1047ff7f1149ff82124bff86124dff89134fff8d1451ff901554ff941656ff981658ff9b175aff9f185dffa2195fffa61a61ffaa1a64ffae1b66ffb11c68ffb51d6affb91e6dffbd1e6fffc01f71ffc42074ffc82176ffcc2278ffd0237bffd4237dffd82480ffdb2582ffdf2684ffe32787ffe72889ffeb298cffef2a8efff32a91fff72b93fffb2c96ffff2d98fff82b94fff12a8fffea288bffe32787ffdc2583ffd6247effcf227affc82176ffc12072ffbb1e6effb41d6affae1b66ffa71a62ffa1185eff9a175aff941656ff8e1452ff87134eff81114aff7b1047ff750f43ff6f0d3fff690c3bff630b38ff5d0a34ff570831ff52072dff4c062aff460526ff410523ff3b041fff36031cff310319ff2c0216ff270212ff22010fff1d010cff180109ff130107ff0f0005ff0a0003ff060002ff040001ff020001ff010000ff000000ff000000ff000000ff000000ff000000ff000000ff010000ff010000ff020001ff030001ff040001ff060002ff090003ff0b0004ff0e0005ff110006ff140107ff170109ff1a010bff1e010dff21010fff240211ff280213ff2b0215ff2e0217ff320319ff35031bff39041eff3c0420ff400422ff440524ff470527ff4b0629ff4f072bff52072dff560830ff5a0932ff5e0a35ff620a37ff660b39ff690c3cff6d0d3eff710e41ff750f43ff791046ff7d1148ff81114bff86124dff8a1350ff8e1452ff921555ff961657ff9a175aff9f185cffa3195fffa71a62ffab1b64ffb01c67ffb41d6affb81d6cffbd1e6fffc11f72ffc52074ffca2177ffce227affd3237dffd7247fffdc2582ffe02685ffe52788ffe9288bffee298dfff22a90fff72b93fffc2c96ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98ffff2d98
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EscapePod_v4
+  m_Shader: {fileID: 4800000, guid: 2a230514c860643f69b6a4d1871d3825, type: 3}
+  m_Parent: {fileID: 2100000, guid: 38b800a01a8134676906bf9358b589d0, type: 2}
+  m_ModifiedSerializedProperties: 2
+  m_ValidKeywords:
+  - DR_GRADIENT_ON
+  - DR_OUTLINE_ON
+  - DR_RIM_ON
+  - _DETAILMAPBLENDINGMODE_ADD
+  - _RECEIVE_SHADOWS_OFF
+  - _TEXTUREBLENDINGMODE_MULTIPLY
+  m_InvalidKeywords:
+  - _RECEIVESHADOWS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_LockedProperties: _TextureBlendingMode
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GradientRamp:
+        m_Texture: {fileID: -6292098292919773908}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _FlatRimEdgeSmoothness: 1
+    - _FlatRimLightAlign: 0.095
+    - _FlatRimSize: 0
+    - _FlatSpecularEdgeSmoothness: 0
+    - _FlatSpecularSize: 0.475
+    - _GradientAngle: 118
+    - _GradientCenterX: -0.12
+    - _GradientCenterY: 0.8
+    - _GradientEnabled: 1
+    - _GradientSize: -1.64
+    - _OutlineDepthOffset: 0
+    - _OutlineEnabled: 1
+    - _OutlineWidth: 1
+    - _RimEnabled: 1
+    - _SelfShadingSize: 0.173
+    - _SpecularEnabled: 0
+    m_Colors:
+    - _ColorGradient: {r: 1, g: 1, b: 0.019607844, a: 1}
+    - _FlatRimColor: {r: 9.082412, g: 1.2424057, b: 2.925339, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &2873338400957594487
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
