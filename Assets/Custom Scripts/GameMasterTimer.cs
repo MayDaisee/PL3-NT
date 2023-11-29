@@ -9,21 +9,25 @@ public class GameMasterTimer : MonoBehaviour
 
     public float timeSeconds = 300;
     public TextMeshProUGUI timerText;
+    public GameObject LoseButton;
 
     // Update is called once per frame
     void Update()
     {
+
+        timeSeconds -= Time.deltaTime;
+
         if (timeSeconds > 0)
         {
-            timeSeconds -= Time.deltaTime;
+            TimeDisplay(timeSeconds);
         }
 
         else
         {
             timeSeconds = 0;
+            LoseButton.gameObject.SetActive(true);
         }
 
-        TimeDisplay(timeSeconds);
     }
 
     void TimeDisplay(float displayedTime)
