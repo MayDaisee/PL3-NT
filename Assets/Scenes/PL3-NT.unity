@@ -7438,10 +7438,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnThis: {fileID: 1805288381}
   killThis: {fileID: 108809489}
-  "pulloLevyll\xE4": 0
   consumableItems: 6
   requiredStepsDone:
-  - {fileID: 124294156}
+  - {fileID: 0}
   onReqsMet:
     m_PersistentCalls:
       m_Calls:
@@ -20385,7 +20384,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1001 &820367283940256430
 PrefabInstance:
@@ -40571,10 +40570,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnThis: {fileID: 1903631607362478741}
   killThis: {fileID: 0}
-  "pulloLevyll\xE4": 0
   consumableItems: 1
   requiredStepsDone:
-  - {fileID: 7577550738676232929}
+  - {fileID: 0}
   onReqsMet:
     m_PersistentCalls:
       m_Calls:
@@ -41051,6 +41049,7 @@ GameObject:
   - component: {fileID: 1090436666828130323}
   - component: {fileID: 8950768722094132606}
   - component: {fileID: 8950768722094132607}
+  - component: {fileID: 8950768722094132609}
   m_Layer: 5
   m_Name: ChemCollider
   m_TagString: Untagged
@@ -42460,7 +42459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 060ecfe76c89f324c9ca077825e5bd93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 5
+  itemType: 4
 --- !u!114 &8084727921455843370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46709,10 +46708,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnThis: {fileID: 124294147}
   killThis: {fileID: 3008654423769447700}
-  "pulloLevyll\xE4": 0
   consumableItems: 3
   requiredStepsDone:
-  - {fileID: 1121927186}
+  - {fileID: 0}
   onReqsMet:
     m_PersistentCalls:
       m_Calls:
@@ -50160,10 +50158,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnThis: {fileID: 7404195064765693528}
   killThis: {fileID: 2149725722921666279}
-  "pulloLevyll\xE4": 0
   consumableItems: 2
   requiredStepsDone:
-  - {fileID: 8805463404636615402}
+  - {fileID: 0}
   onReqsMet:
     m_PersistentCalls:
       m_Calls:
@@ -50191,18 +50188,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8950768722094132607}
-        m_TargetAssemblyTypeName: CONSUME, Assembly-CSharp
-        m_MethodName: Mixology
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+--- !u!114 &8950768722094132609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7336843668074231551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7af3724cfd221d647ada1710e28278d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnThis: {fileID: 7404195064765693528}
+  killThis: {fileID: 0}
+  consumableItems: 4
+  requiredStepsDone: []
+  onReqsMet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!33 &9071854209300108926
 MeshFilter:
   m_ObjectHideFlags: 0

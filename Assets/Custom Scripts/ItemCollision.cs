@@ -11,6 +11,7 @@ public enum Items
     none, credit, bottle
 }
 
+
 public class ItemCollision : MonoBehaviour
 {
     public GameObject spawnThis;
@@ -63,16 +64,7 @@ public class ItemCollision : MonoBehaviour
 
         }
 
-        if (gameObject.name == "SuihkepulloIcon" && collision.gameObject.name == "FullLasipulloIcon")
-        {
-            InteractionSuccess();
-
-            print("KASVIMYRKKY GET");
-            Destroy(gameObject);
-
-        }
-
-
+     
         void InteractionSuccess()
         {
             spawnThis.SetActive(true);

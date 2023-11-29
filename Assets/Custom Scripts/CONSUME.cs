@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
+
 using static UnityEditor.PlayerSettings;
 
 
@@ -12,34 +13,26 @@ public class CONSUME : MonoBehaviour
 {
     public GameObject spawnThis;
     public GameObject killThis;
-    public bool pulloLevyllä;
-
     public Itemtype consumableItems;
-    InteractableItem consumedItemType;
-    ParticleSystem luigit;
 
+    InteractableItem consumedItemType;
     public List<InteractableItem> requiredStepsDone;
 
     public UnityEvent onReqsMet;
 
 
-
-    private void Start()
-    {
-        luigit = spawnThis.GetComponent<ParticleSystem>();
-    }
-
     public void CheckIfRequirementsMet()
     {
-        if (requiredStepsDone.Count == 0)
+        if (requiredStepsDone.Count == requiredStepsDone.Capacity)
         {
             onReqsMet.Invoke();
         }
 
-        if (pulloLevyllä == true)
+        if (consumedItemType.itemType == Itemtype.ingredient)
         {
-            //???????? ÄÄÄ
+            Mixology();
         }
+
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -50,16 +43,12 @@ public class CONSUME : MonoBehaviour
 
         if (consumedItemType.itemType == consumableItems)
         {
-            requiredStepsDone.Remove(consumedItemType);
+            requiredStepsDone.Add(consumedItemType);
             collision.gameObject.SetActive(false);
             CheckIfRequirementsMet();
         }
 
-        if (consumedItemType.itemType == Itemtype.emptyBottle && consumedItemType.itemType == consumableItems)
-        {
-            pulloLevyllä = true; // I guess, oon väsynyt
-        }
-
+      
     }
 
     public void InteractionSuccessful()
@@ -71,11 +60,25 @@ public class CONSUME : MonoBehaviour
     public void Kill()
     {
         killThis.SetActive(false);
+        print("Killed");
     }
 
     public void Mixology()
     {
-        //äää
+        if (requiredStepsDone.Count == 1)
+        {
+            spawnThis.GetComponent<ParticleSystem>().Play(true);
+        }
+
+        if (requiredStepsDone.Count == 2)
+        {
+            spawnThis.GetComponent<Light>().enabled = true;
+        }
+
+        if (requiredStepsDone.Count >= 2)
+        {
+            gameObject.GetComponent<Button>().enabled = true;
+        }
     }
 
 
