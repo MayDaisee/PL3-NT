@@ -41,7 +41,7 @@ public class CONSUME : MonoBehaviour
 
         consumedItemType = collision.gameObject.GetComponent<InteractableItem>();
 
-        foreach (var consumableItem in  consumableItems)
+        foreach (var consumableItem in consumableItems)
         {
 
             if (consumedItemType.itemType == consumableItem)              // Omaako triggeriin osuneen colliderin gameObject sen saman tyypin itemin, minkä triggerin omaava gameobject vaatii?
