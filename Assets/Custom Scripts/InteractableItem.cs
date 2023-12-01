@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum Itemtype
 {
-    none, credit, emptyBottle, fullBottle, ingredient, poison
+    none, credit, emptyBottle, fullBottle, soda, powder, poison
 }
 
 public class InteractableItem : MonoBehaviour
