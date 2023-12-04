@@ -13,7 +13,7 @@ public class CONSUME : MonoBehaviour
     public GameObject spawnThis;                        // Suurin osa instansseista spawnaa jotain
     public GameObject killThis;                         // Jotkut myˆs tappaa (SuihkepulloIcon & KasviHitbox)
     public List<Itemtype> consumableItems;              // Instanssin oma vastaanotettava itemtyyppi, jotka m‰‰ritet‰‰n kussakin itemiss‰ erikseen interactableItem scriptill‰, tehty listaksi koska jotkut instanssit vaatii useamman eri itemin toimiakseen.
-    bool pulloLevyll‰;                                  
+    bool pulloLevyll‰;
 
     InteractableItem consumedItemType;                  // t‰ytyypi varastoida t‰‰ll‰ jotta toimii
     public List<InteractableItem> requiredStepsDone;    // HOX!! T‰ss‰ h‰mmennys, miten listata tarpeellisten vaiheiden m‰‰r‰ fiksusti, kun eri‰‰ per instanssi
@@ -21,16 +21,16 @@ public class CONSUME : MonoBehaviour
     public UnityEvent onReqsMet;
 
 
-    public void CheckIfRequirementsMet()                                
+    public void CheckIfRequirementsMet()
     {
-        if (requiredStepsDone.Count == consumableItems.Count)           
+        if (requiredStepsDone.Count == consumableItems.Count)
         {
             onReqsMet.Invoke();                                         // voidaan invokata unityeventin‰ jokin public funktio
         }
 
         if (pulloLevyll‰ == true)                                       // Mixology saa tapahtua vain ja ainoastaan t‰m‰n ehdon t‰ytytty‰! Voisko t‰nkin saada unity event invokena??
         {
-            Mixology();
+            Phases();
         }
 
     }
@@ -51,7 +51,7 @@ public class CONSUME : MonoBehaviour
             }
 
         }
-        
+
         if (consumedItemType.itemType == Itemtype.emptyBottle)          // Omaako triggeriin osuneen colliderin gameObject kyseisen itemtyypin?
         {
             pulloLevyll‰ = true;
@@ -60,7 +60,7 @@ public class CONSUME : MonoBehaviour
 
 
     }
-    public void InteractionSuccessful()                                 // yleisimmin invokattu eventti
+    public void InteractionSuccessful()
     {
         consumedItemType.gameObject.SetActive(false);                   //t‰n avulla objekti katoaa vasta kun kaikki vaaditut vaiheet on toteutettu! (oli aikaisemmin OnTriggerEnteriss‰, ei hyv‰)
         spawnThis.SetActive(true);
@@ -74,7 +74,7 @@ public class CONSUME : MonoBehaviour
         print("Killed");
     }
 
-    public void Mixology()                                             
+    public void Phases()
     {
 
 
@@ -84,13 +84,17 @@ public class CONSUME : MonoBehaviour
             consumedItemType.gameObject.SetActive(false);
         }
 
-        if (requiredStepsDone.Count >= 2)
+
+    }
+
+    public void PhasesDone()
+    {
+        if (pulloLevyll‰ == true)
         {
             spawnThis.GetComponent<Light>().enabled = true;
             gameObject.GetComponent<Button>().enabled = true;
             consumedItemType.gameObject.SetActive(false);
         }
-
     }
 
 
