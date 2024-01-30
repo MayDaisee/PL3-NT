@@ -1,13 +1,5 @@
 {
   "dependencies": {
-    "com.interactive-scape.tuio_client": {
-      "version": "file:D:/TUIO_Unity/TuioUnityClient-main/TuioUnityClient-main",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.textmeshpro": ""
-      }
-    },
     "com.unity.2d.common": {
       "version": "8.0.1",
       "depth": 1,
