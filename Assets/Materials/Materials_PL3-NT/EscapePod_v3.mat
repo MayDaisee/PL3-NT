@@ -61,7 +61,6 @@ Material:
   m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
   - DR_GRADIENT_ON
-  - DR_OUTLINE_ON
   - DR_RIM_ON
   - _DETAILMAPBLENDINGMODE_ADD
   - _RECEIVE_SHADOWS_OFF
@@ -74,7 +73,8 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Opaque
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - SRPDEFAULTUNLIT
   m_LockedProperties: _TextureBlendingMode
   m_SavedProperties:
     serializedVersion: 3
@@ -96,7 +96,7 @@ Material:
     - _GradientEnabled: 1
     - _GradientSize: 1
     - _OutlineDepthOffset: 0
-    - _OutlineEnabled: 1
+    - _OutlineEnabled: 0
     - _OutlineWidth: 1
     - _RimEnabled: 1
     - _SelfShadingSize: 0

@@ -60,7 +60,6 @@ Material:
   m_Parent: {fileID: 2100000, guid: bd6ad45e7b6b9dd4494d148e190b93a8, type: 2}
   m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
-  - DR_OUTLINE_ON
   - _DETAILMAPBLENDINGMODE_ADD
   - _RECEIVE_SHADOWS_OFF
   - _TEXTUREBLENDINGMODE_MULTIPLY
@@ -72,7 +71,8 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Opaque
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - SRPDEFAULTUNLIT
   m_LockedProperties: _TextureBlendingMode
   m_SavedProperties:
     serializedVersion: 3
@@ -93,7 +93,7 @@ Material:
     - _GradientCenterY: 0
     - _GradientSize: 10
     - _OutlineDepthOffset: 0
-    - _OutlineEnabled: 1
+    - _OutlineEnabled: 0
     - _OutlineScale: 1
     - _OutlineWidth: 2
     - _RimEnabled: 0
